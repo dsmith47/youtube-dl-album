@@ -11,7 +11,7 @@ sh album.sh \
   "Vox Machina: An Exandrian Musical" \
   "1/1" \
   "Musical" \
-  "Feb 2018" \
+  "2018" \
   "https://www.youtube.com/watch?v=LIDuJAvTTRc&list=PL39vwIwCt
 Li3l4J6IMV6rS2HaLCujNzRT"
 ```
