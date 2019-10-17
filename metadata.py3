@@ -32,7 +32,7 @@ for file_name in file_names:
                                     # chars long)
   metatag['artist'] = ARTIST
   metatag['album'] = ALBUM
-  # metatag['albumartist'] = ARTIST
+  metatag['albumartist'] = ARTIST
   metatag['discnumber'] = DISCNUM
   metatag['genre'] = GENRE
   metatag['date'] = DATE
