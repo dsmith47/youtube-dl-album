@@ -30,7 +30,7 @@ def process_title_regex(filename, regex_string):
                                     # it is non-existent or not 3
                                     # chars long)
   if len(regex_string) < 1: return output_string
-  return re.compile(regex_string).search(output_string).group(0).strip()
+  return re.compile(regex_string).search(output_string).group(1).strip()
 
 for file_name in file_names:
   pathname = os.path.join(dir_name, file_name)
