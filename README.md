@@ -14,3 +14,5 @@ bash album.sh \
   --date "2/23/2018" \
   --url "https://www.youtube.com/watch?v=ccccccccccc&list=aaaaaaaaaaaaaaaaaaa"
 ```
+
+TODO: description of the regex feature of the script.
