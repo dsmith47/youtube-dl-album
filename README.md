@@ -6,12 +6,11 @@ For the purposes of taking freely available fan-content and saving locally, don'
 
 Sample Execution:
 ```
-sh album.sh \
-  "The Cantata Pansophical" \
-  "Vox Machina: An Exandrian Musical" \
-  "1/1" \
-  "Musical" \
-  "2/23/2018" \
-  "https://www.youtube.com/watch?v=LIDuJAvTTRc&list=PL39vwIwCt
-Li3l4J6IMV6rS2HaLCujNzRT"
+bash album.sh \
+  --artist "The Cantata Pansophical" \
+  --album "Vox Machina: An Exandrian Musical" \
+  --disc "1/1" \
+  --genre "Musical" \
+  --date "2/23/2018" \
+  --url "https://www.youtube.com/watch?v=ccccccccccc&list=aaaaaaaaaaaaaaaaaaa"
 ```
