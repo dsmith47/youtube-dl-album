@@ -47,6 +47,30 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+if [ -z "$ARTIST" ]; then
+  read -p "[METADATA] Enter Artist Name: " ARTIST
+fi	
+
+if [ -z "$ALBUM" ]; then
+  read -p "[METADATA] Enter Album Name: " ALBUM
+fi	
+
+if [ -z "$DISCNUM" ]; then
+  read -p "[METADATA] Enter Disc Index (\$number/\$total): " DISCNUM 
+fi	
+
+if [ -z "$GENRE" ]; then
+  read -p "[METADATA] Enter the Genre to sort album under: " GENRE
+fi	
+
+if [ -z "$DATE" ]; then
+  read -p "[METADATA] Enter Album Release Date: " DATE
+fi	
+
+if [ -z "$URL" ]; then
+  read -p "[METADATA] Enter Playlist URL: " URL
+fi	
+
 youtube-dl \
   --ignore-errors \
   --extract-audio \
